@@ -54,6 +54,7 @@
     <Compile Include="Tasks\Level1\Task03_Calculator.cs" />
     <Compile Include="Tasks\Level1\Task04_Parity.cs" />
     <Compile Include="Tasks\Level1\Task05_Multiplication.cs" />
+    <Compile Include="Tasks\Level1\Task07_Reverse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
