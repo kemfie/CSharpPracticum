@@ -58,6 +58,7 @@
     <Compile Include="Tasks\Level1\Task08_FizzBuzz.cs" />
     <Compile Include="Tasks\Level1\Task09_Array.cs" />
     <Compile Include="Tasks\Level1\Task10_BubIns.cs" />
+    <Compile Include="Tasks\Level1\Task11_Matrixdiagonal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
