@@ -13,6 +13,7 @@ namespace Visual_Studio.Menu
         {
             level1Tasks.Add(new Task01_HelloWorld());
             level1Tasks.Add(new Task02_Primitives());
+            level1Tasks.Add(new Task03_Calculator());
         }
         public void Start()
         {
