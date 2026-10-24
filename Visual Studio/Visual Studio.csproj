@@ -60,6 +60,7 @@
     <Compile Include="Tasks\Level1\Task10_BubIns.cs" />
     <Compile Include="Tasks\Level1\Task11_Matrixdiagonal.cs" />
     <Compile Include="Tasks\Level1\Task12_Palindrome.cs" />
+    <Compile Include="Tasks\Level1\Task13_Dictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
