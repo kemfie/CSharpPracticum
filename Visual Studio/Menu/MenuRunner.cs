@@ -16,6 +16,7 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task03_Calculator());
             level1Tasks.Add(new Task04_Parity());
             level1Tasks.Add(new Task05_Multiplication());
+            level1Tasks.Add(new Task06_Sum_Dig_Num());
 
         }
         public void Start()
