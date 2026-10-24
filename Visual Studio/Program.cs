@@ -10,6 +10,8 @@ namespace Visual_Studio
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("=== Практикум по C# ===");
+            Console.WriteLine("Привет! Каркас проекта готов.");
         }
     }
 }
