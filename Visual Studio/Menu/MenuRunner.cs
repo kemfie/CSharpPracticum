@@ -19,6 +19,7 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task06_Sum_Dig_Num());
             level1Tasks.Add(new Task07_Reverse());
             level1Tasks.Add(new Task08_FizzBuzz());
+            level1Tasks.Add(new Task09_Array());
 
         }
         public void Start()
