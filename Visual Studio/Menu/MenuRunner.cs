@@ -22,6 +22,7 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task09_Array());
             level1Tasks.Add(new Task10_BubIns());
             level1Tasks.Add(new Task11_MatrixDiagonal());
+            level1Tasks.Add(new Task12_Palindrome());
 
         }
         public void Start()
