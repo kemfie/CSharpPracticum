@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Visual_Studio.Menu;
 
 namespace Visual_Studio
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== Практикум по C# ===");
-            Console.WriteLine("Привет! Каркас проекта готов.");
+            MenuRunner runner = new MenuRunner();
+            runner.Start();
         }
     }
 }
