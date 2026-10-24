@@ -12,6 +12,7 @@ namespace Visual_Studio.Menu
         public MenuRunner()
         {
             level1Tasks.Add(new Task01_HelloWorld());
+            level1Tasks.Add(new Task02_Primitives());
         }
         public void Start()
         {
