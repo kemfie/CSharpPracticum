@@ -15,6 +15,8 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task02_Primitives());
             level1Tasks.Add(new Task03_Calculator());
             level1Tasks.Add(new Task04_Parity());
+            level1Tasks.Add(new Task05_Multiplication());
+
         }
         public void Start()
         {
