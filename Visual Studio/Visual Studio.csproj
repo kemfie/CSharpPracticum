@@ -65,6 +65,7 @@
     <Compile Include="Tasks\Level1\Task14_AgeCalculator .cs" />
     <Compile Include="Tasks\Level2\Task16_StringExtensions.cs" />
     <Compile Include="Tasks\Level2\Task17_StringPerformance.cs" />
+    <Compile Include="Tasks\Level2\Task18_TryParseVsCatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

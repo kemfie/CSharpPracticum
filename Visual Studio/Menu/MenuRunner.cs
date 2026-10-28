@@ -29,6 +29,7 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task14_AgeCalculator());
             level2Tasks.Add(new Task16_StringExtensions());
             level2Tasks.Add(new Task17_StringPerformance());
+            level2Tasks.Add(new Task18_TryParseVsCatch());
 
 
 
