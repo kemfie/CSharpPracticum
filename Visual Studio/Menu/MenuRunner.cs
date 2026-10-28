@@ -28,6 +28,7 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task13_Dictionary());
             level1Tasks.Add(new Task14_AgeCalculator());
             level2Tasks.Add(new Task16_StringExtensions());
+            level2Tasks.Add(new Task17_StringPerformance());
 
 
 
