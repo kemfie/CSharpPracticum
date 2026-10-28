@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using Visual_Studio.Common;
 using Visual_Studio.Tasks.Level1;
+// using Visual_Studio.Tasks.Level2; 
 
 namespace Visual_Studio.Menu
 {
     public class MenuRunner
     {
         private List<ITask> level1Tasks = new List<ITask>();
+        private List<ITask> level2Tasks = new List<ITask>();
 
         public MenuRunner()
         {
@@ -35,13 +37,18 @@ namespace Visual_Studio.Menu
                 Console.Clear();
                 Console.WriteLine("=== Практикум по C# ===");
                 Console.WriteLine("1. Уровень 1 — Базовый");
+                Console.WriteLine("2. Уровень 2 — Средний");
                 Console.WriteLine("0. Выход");
                 Console.Write("\nВыберите уровень: ");
 
                 string choice = Console.ReadLine();
                 if (choice == "1")
                 {
-                    Level1Menu();
+                    ShowLevelMenu(level1Tasks, "Уровень 1: Базовый");
+                }
+                else if (choice == "2")
+                {
+                    ShowLevelMenu(level2Tasks, "Уровень 2: Средний");
                 }
                 else if (choice == "0" || choice == "q")
                 {
@@ -49,17 +56,27 @@ namespace Visual_Studio.Menu
                 }
             }
         }
-        private void Level1Menu()
+        private void ShowLevelMenu(List<ITask> tasks, string levelTitle)
         {
-            bool inLevel1 = true;
-            while (inLevel1)
+            bool inLevel = true;
+
+            while (inLevel)
             {
                 Console.Clear();
-                Console.WriteLine("--- Уровень 1 ---");
-                for (int i = 0; i < level1Tasks.Count; i++)
+                Console.WriteLine($"--- {levelTitle} ---");
+
+                if (tasks.Count == 0)
                 {
-                    Console.WriteLine($"{i + 1}. {level1Tasks[i].Title}");
+                    Console.WriteLine("В этом уровне пока нет заданий.");
                 }
+                else
+                {
+                    for (int i = 0; i < tasks.Count; i++)
+                    {
+                        Console.WriteLine($"{i + 1}. {tasks[i].Title}");
+                    }
+                }
+
                 Console.WriteLine("0. Назад");
                 Console.Write("\nВыберите задание: ");
 
@@ -67,18 +84,17 @@ namespace Visual_Studio.Menu
 
                 if (choice == "0")
                 {
-                    inLevel1 = false;
+                    inLevel = false;
                 }
-                else
+                else if (int.TryParse(choice, out int index))
                 {
-                    int index = int.Parse(choice) - 1;
-
-                    if (index >= 0 && index < level1Tasks.Count)
+                    index--;
+                    if (index >= 0 && index < tasks.Count)
                     {
                         Console.Clear();
-                        ConsoleHelper.PrintTaskInfo(level1Tasks[index]);
-                        level1Tasks[index].Run();
-                        ConsoleHelper.Pause();
+                        ConsoleHelper.PrintTaskInfo(tasks[index]);
+                        tasks[index].Run();                        
+                        ConsoleHelper.Pause();                     
                     }
                 }
             }
