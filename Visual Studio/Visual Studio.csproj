@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Common\ConsoleHelper.cs" />
     <Compile Include="Common\ITask.cs" />
+    <Compile Include="DataStructures\MyQueue.cs" />
+    <Compile Include="DataStructures\MyStack.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Menu\MenuRunner.cs" />
     <Compile Include="Program.cs" />
@@ -66,6 +68,7 @@
     <Compile Include="Tasks\Level2\Task16_StringExtensions.cs" />
     <Compile Include="Tasks\Level2\Task17_StringPerformance.cs" />
     <Compile Include="Tasks\Level2\Task18_TryParseVsCatch.cs" />
+    <Compile Include="Tasks\Level2\Task19_MyCollections.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
