@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Visual_Studio.Common;
 using Visual_Studio.Tasks.Level1;
-// using Visual_Studio.Tasks.Level2; 
+using Visual_Studio.Tasks.Level2;
 
 namespace Visual_Studio.Menu
 {
@@ -27,6 +27,9 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task12_Palindrome());
             level1Tasks.Add(new Task13_Dictionary());
             level1Tasks.Add(new Task14_AgeCalculator());
+            level2Tasks.Add(new Task16_StringExtensions());
+
+
 
         }
         public void Start()
