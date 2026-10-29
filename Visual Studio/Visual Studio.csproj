@@ -79,6 +79,7 @@
     <Compile Include="Tasks\Level2\Task26_Strategy.cs" />
     <Compile Include="Tasks\Level2\Task27_Comparisons.cs" />
     <Compile Include="Tasks\Level2\Task28_EqualsHashCode.cs" />
+    <Compile Include="Tasks\Level2\Task29_Factory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
