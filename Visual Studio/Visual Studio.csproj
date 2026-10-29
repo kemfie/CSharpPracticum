@@ -71,6 +71,7 @@
     <Compile Include="Tasks\Level2\Task17_StringPerformance.cs" />
     <Compile Include="Tasks\Level2\Task18_TryParseVsCatch.cs" />
     <Compile Include="Tasks\Level2\Task19_MyCollections.cs" />
+    <Compile Include="Tasks\Level2\Task21_DaysOfWeek.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
