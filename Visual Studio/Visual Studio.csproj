@@ -77,6 +77,7 @@
     <Compile Include="Tasks\Level2\Task24_Animals.cs" />
     <Compile Include="Tasks\Level2\Task25_Shapes.cs" />
     <Compile Include="Tasks\Level2\Task26_Strategy.cs" />
+    <Compile Include="Tasks\Level2\Task27_Comparisons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
