@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\ConsoleHelper.cs" />
+    <Compile Include="Common\GenericsHelper.cs" />
     <Compile Include="Common\ITask.cs" />
     <Compile Include="DataStructures\MyQueue.cs" />
     <Compile Include="DataStructures\MyStack.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Tasks\Level1\Task12_Palindrome.cs" />
     <Compile Include="Tasks\Level1\Task13_Dictionary.cs" />
     <Compile Include="Tasks\Level1\Task14_AgeCalculator .cs" />
+    <Compile Include="Tasks\Level2\Task20_Generalizations.cs" />
     <Compile Include="Tasks\Level2\Task16_StringExtensions.cs" />
     <Compile Include="Tasks\Level2\Task17_StringPerformance.cs" />
     <Compile Include="Tasks\Level2\Task18_TryParseVsCatch.cs" />
