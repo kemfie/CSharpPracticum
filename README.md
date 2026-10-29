@@ -3,3 +3,4 @@
 Конфликт в задании 15 успешно разрешен!
 ## Задание 35
 Работа с Pull Request и rebase.
+Проверка Conventional Commits.
