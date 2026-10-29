@@ -39,6 +39,7 @@ namespace Visual_Studio.Menu
             level2Tasks.Add(new Task25_Shapes());
             level2Tasks.Add(new Task26_Strategy());
             level2Tasks.Add(new Task27_Comparisons());
+            level2Tasks.Add(new Task28_EqualsHashCode());
 
 
 
