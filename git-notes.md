@@ -21,3 +21,34 @@
 * 7b7ceb7 feat: task 00 - project skeleton
 * a334490 Добавьте файлы проекта.
 * 5c5494a Добавить .gitattributes, .gitignore и README.md.
+
+
+7fb1e62 (HEAD -> feature/rebase-demo) feat: rebase test 1
+ec19908 (main) chore: add gitignore and editorconfig
+daadca1 (origin/main, origin/HEAD) feat: Task34 - GroupWords
+6c4e940 feat: Task33 - LinqEmployees
+0b710ab feat: Task32 - Temperature
+6584abe feat:Task31 - Disposable
+710b251 feat: Task30 - BankAccount
+137e725 feat: Task29 - Factory
+eef4acd feat: Task28 - EqualsHashCode
+d782b7a feat: Task27 - Comparisons
+db81985 feat: Task26 - Strategy
+947530b feat: Task25 - Shapes
+30fc351 feat: Task24 - Animals
+6b9e406 feat: Task23 - Nullable
+3b7534b feat: Task22 - ParamsAndOverload
+fac6974 feat: Task21 - DaysOfWeek
+c6240a7 feat: Task20 - Generalizations
+0881765 feat: Task19 - MyCollections
+2a35f06 feat: Task18 - TryParseVsCatch
+f4afaec feat: Task17 - StringPerformance
+00f2cdf feat: task 16 - string extensions
+aa5a899 feat: setup level 2 menu
+50e223d merge: resolve conflict for task 15
+c3c6b23 merge: resolve conflict for task 15
+56ede4e merge: resolve conflict for task 15
+da1a610 test: change same line in main
+045ae9b (feature/conflict-test) test: add conflict line in feature
+72179f4 fix: force git to use uppercase Level1 folder
+0183fc3 feat: Task 15 - GIT
