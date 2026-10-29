@@ -75,6 +75,7 @@
     <Compile Include="Tasks\Level2\Task22_ParamsAndOverload.cs" />
     <Compile Include="Tasks\Level2\Task23_Nullable.cs" />
     <Compile Include="Tasks\Level2\Task24_Animals.cs" />
+    <Compile Include="Tasks\Level2\Task25_Shapes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
