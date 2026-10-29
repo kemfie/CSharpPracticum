@@ -72,6 +72,7 @@
     <Compile Include="Tasks\Level2\Task18_TryParseVsCatch.cs" />
     <Compile Include="Tasks\Level2\Task19_MyCollections.cs" />
     <Compile Include="Tasks\Level2\Task21_DaysOfWeek.cs" />
+    <Compile Include="Tasks\Level2\Task22_ParamsAndOverload.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

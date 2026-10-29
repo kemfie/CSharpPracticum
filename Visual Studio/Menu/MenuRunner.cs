@@ -33,6 +33,8 @@ namespace Visual_Studio.Menu
             level2Tasks.Add(new Task19_MyCollections());
             level2Tasks.Add(new Task20_Generalizations());
             level2Tasks.Add(new Task21_DaysOfWeek());
+            level2Tasks.Add(new Task22_ParamsAndOverload());
+
 
 
 
