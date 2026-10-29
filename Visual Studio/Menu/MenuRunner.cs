@@ -37,6 +37,7 @@ namespace Visual_Studio.Menu
             level2Tasks.Add(new Task23_Nullable());
             level2Tasks.Add(new Task24_Animals());
             level2Tasks.Add(new Task25_Shapes());
+            level2Tasks.Add(new Task26_Strategy());
 
 
 
