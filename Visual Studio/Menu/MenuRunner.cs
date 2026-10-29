@@ -35,6 +35,7 @@ namespace Visual_Studio.Menu
             level2Tasks.Add(new Task21_DaysOfWeek());
             level2Tasks.Add(new Task22_ParamsAndOverload());
             level2Tasks.Add(new Task23_Nullable());
+            level2Tasks.Add(new Task24_Animals());
 
 
 
