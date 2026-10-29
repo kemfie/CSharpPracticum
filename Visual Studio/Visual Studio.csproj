@@ -83,6 +83,7 @@
     <Compile Include="Tasks\Level2\Task30_BankAccount.cs" />
     <Compile Include="Tasks\Level2\Task31_Disposable.cs" />
     <Compile Include="Tasks\Level2\Task32_Temperature.cs" />
+    <Compile Include="Tasks\Level2\Task33_LinqEmployees.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

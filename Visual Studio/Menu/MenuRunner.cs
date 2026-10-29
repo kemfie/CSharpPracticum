@@ -44,6 +44,7 @@ namespace Visual_Studio.Menu
             level2Tasks.Add(new Task30_BankAccount());
             level2Tasks.Add(new Task31_Disposable());
             level2Tasks.Add(new Task32_Temperature());
+            level2Tasks.Add(new Task33_LinqEmployees());
 
 
 
