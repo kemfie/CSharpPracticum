@@ -41,6 +41,7 @@ namespace Visual_Studio.Menu
             level2Tasks.Add(new Task27_Comparisons());
             level2Tasks.Add(new Task28_EqualsHashCode());
             level2Tasks.Add(new Task29_Factory());
+            level2Tasks.Add(new Task30_BankAccount());
 
 
 

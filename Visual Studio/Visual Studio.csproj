@@ -80,6 +80,7 @@
     <Compile Include="Tasks\Level2\Task27_Comparisons.cs" />
     <Compile Include="Tasks\Level2\Task28_EqualsHashCode.cs" />
     <Compile Include="Tasks\Level2\Task29_Factory.cs" />
+    <Compile Include="Tasks\Level2\Task30_BankAccount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
