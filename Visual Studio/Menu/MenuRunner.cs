@@ -60,6 +60,7 @@ namespace Visual_Studio.Menu
             level3Tasks.Add(new Task40_AsyncAwait());
             level3Tasks.Add(new Task41_ParallelTasks());
             level3Tasks.Add(new Task42_Cancellation());
+            level3Tasks.Add(new Task43_ExceptionOrder());
 
         }
 
