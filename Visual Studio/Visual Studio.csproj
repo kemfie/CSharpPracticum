@@ -86,6 +86,8 @@
     <Compile Include="Tasks\Level2\Task33_LinqEmployees.cs" />
     <Compile Include="Tasks\Level2\Task34_GroupWords.cs" />
     <Compile Include="Tasks\Level3\Task36_DubList.cs" />
+    <Compile Include="Tasks\Level3\Task37_Fibonacci.cs" />
+    <Compile Include="Tasks\Level3\Task38_ListVsLinkedList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

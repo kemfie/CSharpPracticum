@@ -54,6 +54,8 @@ namespace Visual_Studio.Menu
 
             // --- УРОВЕНЬ 3 ---
             level3Tasks.Add(new Task36_DubList());
+            level3Tasks.Add(new Task37_Fibonacci());
+            level3Tasks.Add(new Task38_ListVsLinkedList());
 
         }
 
