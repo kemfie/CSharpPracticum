@@ -88,6 +88,7 @@
     <Compile Include="Tasks\Level3\Task36_DubList.cs" />
     <Compile Include="Tasks\Level3\Task37_Fibonacci.cs" />
     <Compile Include="Tasks\Level3\Task38_ListVsLinkedList.cs" />
+    <Compile Include="Tasks\Level3\Task39_YieldEvenNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
