@@ -90,6 +90,7 @@
     <Compile Include="Tasks\Level3\Task38_ListVsLinkedList.cs" />
     <Compile Include="Tasks\Level3\Task39_YieldEvenNumbers.cs" />
     <Compile Include="Tasks\Level3\Task40_AsyncAwait.cs" />
+    <Compile Include="Tasks\Level3\Task41_ParallelTasks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
