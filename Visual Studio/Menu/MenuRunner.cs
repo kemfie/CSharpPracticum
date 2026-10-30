@@ -57,6 +57,7 @@ namespace Visual_Studio.Menu
             level3Tasks.Add(new Task37_Fibonacci());
             level3Tasks.Add(new Task38_ListVsLinkedList());
             level3Tasks.Add(new Task39_YieldEvenNumbers());
+            level3Tasks.Add(new Task40_AsyncAwait());
 
         }
 
