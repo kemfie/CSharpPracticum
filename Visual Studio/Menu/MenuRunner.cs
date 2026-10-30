@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Visual_Studio.Common;
 using Visual_Studio.Tasks.Level1;
 using Visual_Studio.Tasks.Level2;
+using Visual_Studio.Tasks.Level3; 
 
 namespace Visual_Studio.Menu
 {
@@ -10,9 +11,11 @@ namespace Visual_Studio.Menu
     {
         private List<ITask> level1Tasks = new List<ITask>();
         private List<ITask> level2Tasks = new List<ITask>();
+        private List<ITask> level3Tasks = new List<ITask>(); 
 
         public MenuRunner()
         {
+            // --- УРОВЕНЬ 1 ---
             level1Tasks.Add(new Task01_HelloWorld());
             level1Tasks.Add(new Task02_Primitives());
             level1Tasks.Add(new Task03_Calculator());
@@ -27,6 +30,8 @@ namespace Visual_Studio.Menu
             level1Tasks.Add(new Task12_Palindrome());
             level1Tasks.Add(new Task13_Dictionary());
             level1Tasks.Add(new Task14_AgeCalculator());
+
+            // --- УРОВЕНЬ 2 ---
             level2Tasks.Add(new Task16_StringExtensions());
             level2Tasks.Add(new Task17_StringPerformance());
             level2Tasks.Add(new Task18_TryParseVsCatch());
@@ -47,9 +52,11 @@ namespace Visual_Studio.Menu
             level2Tasks.Add(new Task33_LinqEmployees());
             level2Tasks.Add(new Task34_GroupWords());
 
-
+            // --- УРОВЕНЬ 3 ---
+            level3Tasks.Add(new Task36_DubList());
 
         }
+
         public void Start()
         {
             bool isRunning = true;
@@ -59,10 +66,12 @@ namespace Visual_Studio.Menu
                 Console.WriteLine("=== Практикум по C# ===");
                 Console.WriteLine("1. Уровень 1 — Базовый");
                 Console.WriteLine("2. Уровень 2 — Средний");
+                Console.WriteLine("3. Уровень 3 — Продвинутый"); 
                 Console.WriteLine("0. Выход");
                 Console.Write("\nВыберите уровень: ");
 
                 string choice = Console.ReadLine();
+
                 if (choice == "1")
                 {
                     ShowLevelMenu(level1Tasks, "Уровень 1: Базовый");
@@ -71,12 +80,17 @@ namespace Visual_Studio.Menu
                 {
                     ShowLevelMenu(level2Tasks, "Уровень 2: Средний");
                 }
+                else if (choice == "3")
+                {
+                    ShowLevelMenu(level3Tasks, "Уровень 3: Продвинутый");
+                }
                 else if (choice == "0" || choice == "q")
                 {
                     isRunning = false;
                 }
             }
         }
+
         private void ShowLevelMenu(List<ITask> tasks, string levelTitle)
         {
             bool inLevel = true;
@@ -114,8 +128,8 @@ namespace Visual_Studio.Menu
                     {
                         Console.Clear();
                         ConsoleHelper.PrintTaskInfo(tasks[index]);
-                        tasks[index].Run();                        
-                        ConsoleHelper.Pause();                     
+                        tasks[index].Run();
+                        ConsoleHelper.Pause();
                     }
                 }
             }

@@ -85,6 +85,7 @@
     <Compile Include="Tasks\Level2\Task32_Temperature.cs" />
     <Compile Include="Tasks\Level2\Task33_LinqEmployees.cs" />
     <Compile Include="Tasks\Level2\Task34_GroupWords.cs" />
+    <Compile Include="Tasks\Level3\Task36_DubList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
