@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Visual Studio/Visual Studio.csproj" Id="663d0ac3-11d5-49cf-9fe9-476ca62f4e30" />
+  <Project Path="Visual_Studio.Tests/Visual_Studio.Tests.csproj" Id="f9976c82-c140-43d5-8964-7923dbd709ac" />
 </Solution>
