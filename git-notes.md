@@ -91,3 +91,19 @@ v1.0.0
 
 ### What I learned
 Узнал, что `git reset --hard` не удаляет коммиты навсегда. Их можно найти через `git reflog` и восстановить, даже если они пропали из `git log`.
+
+
+## Task 50 — bisect
+
+### Commands
+- `git bisect start`
+- `git bisect bad`
+- `git bisect good <hash>`
+- `git bisect reset`
+
+### Output (Finding the bad commit)
+a4c4fec5f08ec6b948493c4afa94aaca5499cebf is the first 'bad' commit
+
+### What I learned
+Научился использовать бинарный поиск (git bisect) для быстрого нахождения коммита, который сломал код. 
+Суть в том, чтобы делить историю пополам и проверять середину, пока не останется один коммит.
