@@ -52,3 +52,23 @@ da1a610 test: change same line in main
 045ae9b (feature/conflict-test) test: add conflict line in feature
 72179f4 fix: force git to use uppercase Level1 folder
 0183fc3 feat: Task 15 - GIT
+
+
+
+
+
+
+## Task 48 — tags
+
+### Commands
+- `git tag -a v1.0.0 -m "Release v1.0.0"`
+- `git push origin v1.0.0`
+
+### Output (git tag)
+v1.0.0
+
+### Output (git show v1.0.0)
+(Вставь сюда верхнюю часть вывода: имя теггера, дата, сообщение "Release v1.0.0")
+
+### What I learned
+Научился ставить аннотированные теги для релизов и отправлять их на удаленный репозиторий. Узнал, что обычный push теги не отправляет.
